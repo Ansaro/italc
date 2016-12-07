@@ -252,7 +252,7 @@ ENDFOREACH(_item ${qm_targets})
 #
 # add target for generating Windows installer
 #
-SET(TMP "italc-${VERSION}")
+SET(TMP "italc-${NSI_VERSION}")
 
 ADD_CUSTOM_TARGET(win-nsi
 			COMMAND make
